@@ -29,7 +29,8 @@ var app = new App(document.getElementById("app_container"))
 app.show()
 
 setCookie("playerId","test1234",1)
-var wsAPI = new WsAPI(new WebSocket("ws://localhost:3000/chat", [] ));
+// var wsAPI = new WsAPI(new WebSocket("ws://localhost:3000/chat", [] ));
+var wsAPI = new WsAPI(new WebSocket("wss://igre.app/chat", [] ));
 
 
 
