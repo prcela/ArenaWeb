@@ -2,8 +2,13 @@
 class App {
   constructor(node) {
     this.node = node    
-    this.playerStat = new PlayerStat()
+    this.playerStat = new PlayerStat(document.createElement("nav"))
     this.node.appendChild(this.playerStat.node)
+    var navControllerDiv = document.createElement("div")
+    var menuDiv = document.createElement("div")
+    this.node.appendChild(navControllerDiv)
+    var menu = new MenuViewController(menuDiv)
+    this.navController = new NavigationController(navControllerDiv, menu)
   }
   
   show() {
@@ -29,8 +34,8 @@ var app = new App(document.getElementById("app_container"))
 app.show()
 
 setCookie("playerId","test1234",1)
-// var wsAPI = new WsAPI(new WebSocket("ws://localhost:3000/chat", [] ));
-var wsAPI = new WsAPI(new WebSocket("wss://igre.app/chat", [] ));
+var wsAPI = new WsAPI(new WebSocket("ws://localhost:3000/chat", [] ));
+// var wsAPI = new WsAPI(new WebSocket("wss://igre.app/chat", [] ));
 
 
 

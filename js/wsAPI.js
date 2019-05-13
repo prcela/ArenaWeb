@@ -3,6 +3,7 @@ class WsAPI {
   	this.ws = ws
   	ws.onopen = function() {
 	  console.log("didConnect")
+    wsAPI.arenaInfo()
 	};
 	ws.onmessage = function (evt) { 
     var lines = splitLines(evt.data)
@@ -12,7 +13,7 @@ class WsAPI {
   		switch (json.msg_func) {
   			case "arena_info":
   			// TODO
-  			var event = new CustomEvent("onRoomInfo")
+  			var event = new CustomEvent("onArenaInfo")
   			document.dispatchEvent(event)
   			break
         case "player_stat":
@@ -31,7 +32,7 @@ class WsAPI {
 	};
   }
 
-  roomInfo() {
-  	this.ws.send(JSON.stringify({msg_func:"room_info"}))
+  arenaInfo() {
+  	this.ws.send(JSON.stringify({msg_func:"arena_info"}))
   }
 }

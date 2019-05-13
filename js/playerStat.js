@@ -1,6 +1,6 @@
 class PlayerStat {
-	constructor() {
-		this.node = document.createElement("div")
+	constructor(node) {
+		this.node = node
 		this.node.className = "Toolbar"
 		document.listeners["onPlayerStat"].push(this)
 	}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html" />
+<meta charset='utf-8'>
+<link href="https://fonts.googleapis.com/css?family=Krub" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">  
+
+<title>arena</title>
+<script type="application/javascript">
+    function draw() {
+      var canvas = document.getElementById('canvas');
+      if (canvas.getContext) {
+        var ctx = canvas.getContext('2d');
+
+        ctx.fillStyle = 'rgb(200, 0, 0)';
+        ctx.fillRect(10, 10, 50, 50);
+
+        ctx.fillStyle = 'rgba(0, 0, 200, 0.5)';
+        ctx.fillRect(30, 30, 50, 50);
+      }
+    }
+ </script>
+</head>
+
+<body onload="draw();">
+	<header class="navbar navbar-expand-lg navbar-dark bg-dark bd-navbar">
+  		<a class="navbar-brand" href="/static">igre.app</a>
+		<div class="collapse navbar-collapse">
+	    	<ul class="navbar-nav mr-auto">
+	      		<li class="nav-item active">
+	        		<a class="nav-link" href="#">Mlin <span class="sr-only">(current)</span></a>
+	      		</li>
+	      		<li class="nav-item">
+	        		<a class="nav-link" href="#">Yamb</a>
+	      		</li>
+	      		<li class="nav-item">
+	        		<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+	      		</li>
+	    	</ul>
+	  	</div>
+	  	<ul class="navbar-nav flex-row ml-md-auto d-md-flex">
+    	<li class="nav-item">
+	      	<a class="nav-link" href="#">Player</a>
+	    </li>
+  	  </ul>
+  	</header>
+  	<div class="container-fluid">
+		<div class="row">
+			<div class="col">
+				<h1 class="mt-5 text-center">Mlin</h1>
+				<p class="text-center">Online: 11</p>
+				<div class="mt-5 card mx-auto" style="width: 18rem;">
+				  <div class="card-body text-center">
+				    <h5 class="card-title">Highscores</h5>
+				    <ol class="text-left">
+				    	<li>test</li>
+				    	<li>test</li>
+				    	<li>test duži</li>
+				    </ol>
+				    <a href="#" class="stretched-link">Load more...</a>
+				  </div>
+				</div>
+			</div>
+			<div class="col-6">
+				<div class="card text-white bg-success mb-3 mx-auto mt-5" style="max-width: 30rem;">
+					<div class="card-header">New game</div>
+				  	<div class="card-body">
+				    	<p class="card-text">Kreiraj novu igru i pričekaj da ti se pridruži netko od slobodnih igrača.</p>
+				    	<a href="#" class="btn btn-light">Create</a>
+				  	</div>
+				</div>
+				<div class="card mx-auto mb-3" style="width: 30rem;">
+			  	  	<div class="card-header">Free games</div>
+				  	<div class="card-body">
+				    	<h5 class="card-title">Card title</h5>
+				    	<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				  	</div>
+				  	<ul class="list-group list-group-flush">
+				    	<li class="list-group-item">Cras justo<br> odio</li>
+				    	<li class="list-group-item">Dapibus ac facilisis in</li>
+				    	<li class="list-group-item">Vestibulum at eros</li>
+				  	</ul>
+				  	<div class="card-body">
+				    	<a href="#" class="card-link">Card link</a>
+				    	<a href="#" class="card-link">Another link</a>
+				  	</div>
+				</div>
+				<div class="card mx-auto mb-3" style="width: 30rem;">
+			  	  	<div class="card-header">Free Players</div>
+				  	<ul class="list-group list-group-flush">
+				    	<li class="list-group-item">Cras justo odio</li>
+				    	<li class="list-group-item">Dapibus ac facilisis in</li>
+				    	<li class="list-group-item">Vestibulum at eros</li>
+				  	</ul>
+				</div>
+				<canvas id="canvas" width="300" height="300"></canvas>
+			</div>
+			<div class="col">
+			  One of three columns
+			</div>
+		</div>
+	</div>
+</body>
+</html>
