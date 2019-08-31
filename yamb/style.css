@@ -1,0 +1,34 @@
+
+/* athiti-200 - latin-ext */
+@font-face {
+    font-family: 'Athiti';
+    font-style: normal;
+    font-weight: 200;
+    src: local('Athiti ExtraLight'), local('Athiti-ExtraLight'),
+    url('fonts/athiti-v1-latin-ext-200.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('fonts/athiti-v1-latin-ext-200.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+html, body {
+    font-family: 'Athiti', sans-serif;
+    text-align:left;
+    font-size:100%;
+    color:black;
+}
+
+p {
+    font-family: 'Athiti', sans-serif;
+    color:black;
+    font-size:100%;
+    background-color:inherit;
+}
+
+
+a img{border:none;}
+
+img.left,img.center,img.right{padding:3px; border:none;}
+img.left{float:left; margin:0 10px 5px 0;}
+img.center{display:block; margin:0 auto 5px auto;}
+img.right{float:right; margin:0 0 5px 10px;}
+
+
