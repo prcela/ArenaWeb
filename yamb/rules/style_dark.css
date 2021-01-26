@@ -1,0 +1,39 @@
+
+/* athiti-200 - latin-ext */
+
+html, body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    text-align:left;
+    font-size:100%;
+    font-weight: 100;
+    color:white;
+    line-height: 1.4;
+    background: black;
+}
+
+h2 {
+    color: wheat;
+    font-weight: 400;
+    padding-top: 25px;
+    padding-bottom: 25px; 
+}
+
+p {
+    color:white;
+    font-size:100%;
+    background-color:inherit;
+}
+
+
+img{
+    border:none;
+    filter: invert(1);
+    -webkit-filter: invert(1);
+}
+
+img.left,img.center,img.right{padding:3px; border:none;}
+img.left{float:left; margin:0 10px 5px 0;}
+img.center{display:block; margin:0 auto 5px auto;}
+img.right{float:right; margin:0 0 5px 10px;}
+
+
