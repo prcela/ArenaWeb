@@ -4,6 +4,31 @@
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+<style>
+	/* Sekcija vidljiva samo na iPhone uređajima */
+	.iphone-only {
+		display: none;
+	}
+
+	/* Sekcija vidljiva samo na Android uređajima */
+	.android-only {
+		display: none;
+	}
+
+	/* Prikazivanje sekcije samo na iPhone uređaju */
+	@media only screen and (max-width: 768px) and (pointer: coarse) and (device-width: 375px) {
+		.iphone-only {
+			display: block;
+		}
+	}
+
+	/* Prikazivanje sekcije samo na Android uređaju */
+	@media only screen and (max-width: 768px) and (pointer: coarse) and (device-width: 360px) {
+		.android-only {
+			display: block;
+		}
+	}
+</style>
 <link href="style.css" rel="stylesheet" type="text/css" />
 <title>yamb</title>
 
@@ -23,28 +48,31 @@
 	<h2>I have lost my account and scores, can I get it back?</h2>
 	<p>If you didn't sign in never before you can't get it back yourself. Contact us to <a href="mailto:yamb.igre@gmail.com">yamb.igre@gmail.com</a> and tell us what was your old alias or nickname.</p>
 
-	<h2>Why can't I buy 💎?</h2>
-	<ul>
-		<li>Open the Settings app</li>
-		<li>First item in list, Your Apple ID</li>
-		<li>iTunes and App Store</li>
-		<li>Apple ID -> View Apple ID</li>
-		<li>Pick country region, i.e. Croatia and add your card</li>
-	</ul>
+	<div class="iphone-only">
+		<h2>Why can't I buy 💎?</h2>
+		<ul>
+			<li>Open the Settings app</li>
+			<li>First item in list, Your Apple ID</li>
+			<li>iTunes and App Store</li>
+			<li>Apple ID -> View Apple ID</li>
+			<li>Pick country region, i.e. Croatia and add your card</li>
+		</ul>
+	
+		<h2>I have a problem with my recent purchase. What can I do?</h2>
+		<ul>
+			<li>Open the Settings app</li>
+			<li>Tap your name, then tap iTunes & App Store.</li>
+			<li>Tap your Apple ID, Media & Purchases, then tap View Apple ID. You might be asked to sign in.</li>
+			<li>Scroll to Purchase History and tap it. ...</li>
+			<li>Find the item, check if item is in waiting state</li>
+			<li>Tap Total Billed.</li>
+			<li>You can do refund here</li>
+		</ul>
+	
 
-	<h2>I have a problem with my recent purchase. What can I do?</h2>
-	<ul>
-		<li>Open the Settings app</li>
-		<li>Tap your name, then tap iTunes & App Store.</li>
-		<li>Tap your Apple ID, Media & Purchases, then tap View Apple ID. You might be asked to sign in.</li>
-		<li>Scroll to Purchase History and tap it. ...</li>
-		<li>Find the item, check if item is in waiting state</li>
-		<li>Tap Total Billed.</li>
-		<li>You can do refund here</li>
-	</ul>
-
-	<h2>My purchases are in pending state. Why?</h2>
-	<p>First, we'd like to say that you can double-check by adding up the pending transactions to verify there's enough money in your account to cover them. Also, remember that purchases can take 1-3 days, sometimes more, to clear with the bank. Pending means, it has not been charged to your bank account yet.</p>
+		<h2>My purchases are in pending state. Why?</h2>
+		<p>First, we'd like to say that you can double-check by adding up the pending transactions to verify there's enough money in your account to cover them. Also, remember that purchases can take 1-3 days, sometimes more, to clear with the bank. Pending means, it has not been charged to your bank account yet.</p>
+	</div>
 
 	<h2>What does my ranking mean?</h2>
 	<p>Ranking is your position on leaderboard with 💎.</p>
@@ -68,6 +96,13 @@
 
 	<h2>What does 🥨 mean?</h2>
 	<p>It says how many times you won in multiplayer game. It is actaully measure for player experience.</p>
+
+	<h2>Why can't I create a donation game?</h2>
+	<p>Only players with more than 1M💎 can create a donation game.</p>
+
+	<h2>Why didn't I receive the daily reward?</h2>
+	<p>Your streak must be longer than the number of 🥨. The daily reward is not intended for players who are not actively playing.</p>
+
 
 	<h2>Where is my profile? 🤔</h2>
 	<p>Guests who have not been active for a year, who have not yet collected 100🥨 and who have not registered with an email will be automatically archived. Contact us if you still need old profile.</p>
