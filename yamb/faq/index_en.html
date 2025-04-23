@@ -2,35 +2,15 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
-<style>
-	/* Sekcija vidljiva samo na iPhone uređajima */
-	.iphone-only {
-		display: none;
-	}
-
-	/* Sekcija vidljiva samo na Android uređajima */
-	.android-only {
-		display: none;
-	}
-
-	/* Prikazivanje sekcije samo na iPhone uređaju */
-	@media only screen and (max-width: 768px) and (pointer: coarse) and (device-width: 375px) {
-		.iphone-only {
-			display: block;
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+	<style>
+		.iphone-only, .android-only {
+			display: none;
 		}
-	}
-
-	/* Prikazivanje sekcije samo na Android uređaju */
-	@media only screen and (max-width: 768px) and (pointer: coarse) and (device-width: 360px) {
-		.android-only {
-			display: block;
-		}
-	}
-</style>
-<link href="style.css" rel="stylesheet" type="text/css" />
-<title>yamb</title>
+	</style>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<title>yamb</title>
 
 </head>
 
@@ -116,5 +96,20 @@
 
 	<h2>I have another problem...</h2>
 	<p>Don't hesitate to contact us to <a href="mailto:yamb.igre@gmail.com">yamb.igre@gmail.com</a></p>
+
+	<script>
+        // Detekcija uređaja putem user-agent stringa
+        const userAgent = navigator.userAgent.toLowerCase();
+
+        if (userAgent.includes("iphone") || userAgent.includes("ipod")) {
+            document.querySelectorAll('.iphone-only').forEach(function(section) {
+                section.style.display = 'block';
+            });
+        } else if (userAgent.includes("android")) {
+            document.querySelectorAll('.android-only').forEach(function(section) {
+                section.style.display = 'block';
+            });
+        }
+    </script>
 </body>
 </html>
