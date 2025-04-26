@@ -1,80 +1,119 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="hr">
 <head>
-
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
-<link href="style.css" rel="stylesheet" type="text/css" />
-<title>yamb</title>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <title>Yamb - Pravila igre</title>
+  <style>
+    img { max-width: 100%; height: auto; }
+  </style>
 </head>
 
 <body>
 
-<p>Može se igrati sa 5 ili sa 6 kockica. Jedan krug u igri se sastoji od 3 bacanja kockica. U prvom bacanju se bacaju sve kockice, dok u ostala 2 bacanja se biraju kockice koje se žele zadržati. Poslije 3. bacanja, a može i prije, potrebno je upisati bodove u tablicu. Nakon toga opet ide novi krug od 3 bacanja i tako sve dok se ne popuni tablica. Ako se igra sa 6 kockica onda se pri upisu bodova u obzir uzimaju vrijednosti odabranih 5 kockica.</p>
-<h3>Redovi</h3>
+<h1>Yamb - Pravila igre</h1>
+
+<p>Yamb se može igrati s 5 ili 6 kockica. Jedan krug igre sastoji se od 3 bacanja kockica. U prvom bacanju bacaju se sve kockice, dok se u preostala dva bacanja biraju koje kockice zadržati. Nakon trećeg bacanja, ili ranije ako želite, potrebno je upisati bodove u tablicu. Igra se nastavlja sve dok se tablica ne popuni. Ako se igra sa 6 kockica, prilikom upisa bodova u obzir se uzima samo 5 najboljih kockica.</p>
+
+<h2>Redovi</h2>
 <ul>
-	<li>U <strong>prvih 6 redova</strong> se upisuje suma jednica, u drugi red suma dvojki, itd. </li>
-	<p>Npr:</p>
-	<img src="img1.jpeg" style="width: 150px;">
-	<p>Suma od jedinica = 3</p>
-	<p>Suma od šestica = 18</p>
-	<li>U redovima <strong>Max i Min</strong> cilj je sakupiti što veću ili što manju sumu.</li>
-	<p>Npr:</p>
-	<img src="img2.jpeg" style="width: 150px;">
-	<p>Max = 3+4+6+6+4 = 23</p>
-	<p>Min = 3+4+6+4+3 = 20</p>
-	<li><strong>Skala</strong> - cilj je sakupiti kombinaciju 1,2,3,4,5 ili 2,3,4,5,6</li>
-	<p>Npr:</p>
-	<img src="img3.jpeg" style="width: 150px;">
-	<li><strong>Full</strong> - 3 iste i još 2 iste kockice</li>
-	<p>Npr:</p>
-	<img src="img4.jpeg" style="width: 150px;">
-	<li><strong>Poker</strong> - 4 iste kockice</li>
-	<p>Npr:</p>
-	<img src="img5.jpg" style="width: 150px;">
-	<li><strong>Yamb</strong> - 5 istih kockica</li>
-	<p>Npr:</p>
-	<img src="img6.jpeg" style="width: 150px;">
-</ul>
-<h3>Stupci</h3>
-<p>Stupci u tablici su označeni sa strelicama prema <strong>Gore, Dolje, Gore-Dolje i N (najava)</strong>.</p>
-<ul>
-	<li><strong>Prema dolje</strong> - Stupac se mora popunjavati redom od najgornjeg reda prema dolje.</li>
-	<li><strong>Prema gore</strong> - Stupac se popunjava od zadnjeg reda prema gore</li>
-	<li><strong>Gore-dolje</strong> - Supac se ne mora popunjavati redom.</li>
-	<li><strong>N (Najava)</strong> - Upis u ovaj stupac potrebno je najaviti nakon 1. bacanja. Odabere se kombinacija koja će se igrati i nakon oga se odluka više ne može promijeniti. </li>
-</ul>
-<h3>Bodovi</h3>
-<p>Za lakše bodovanje postoje redovi u kojima su zbrojeni bodovi iz prethodnih redova.</p>
-<ul>
-	<li><strong>Prvih 6 redova</strong> - Sume svih jedinica + suma svih dvojki + ... + suma svih šestica. Ako je suma prvih 6 redova veća od 60 tome se pripisuje 30 dodatnih bonus bodova.</li>
-	<li><strong>Max</strong> - suma od 5 najvećih kockica.</li>
-	<li><strong>Min</strong> - suma od 5 najmanjih kockica</li>
-	<p>Max i Min se ne sumiraju u ukupni rezultat. Vrijednost Min se oduzme od Max i pomnoži sa brojem jedinica iz prvog retka.</p>
-	<li><strong>Skala</strong> - 30 bodova za kombinaciju od 1 do 5, ili 40 bodova za kombinaciju od 2 do 6.</li>
-	<li><strong>Full</strong> - Suma od 5 kockica koje sačinjavaju full kombinaciju + 30 dodatnih bodova.</li>
-	<li><strong>Poker</strong> - Suma od 4 iste kockice + 40 dodatnih bodova.</li>
-	<li><strong>Yamb</strong> - Suma od 5 istih kockica + 50 dodatnih bodova.</li>
+  <li>
+    <strong>Prvih 6 redova</strong> - upisuje se zbroj istih brojeva (jedinica, dvojki, trojki, itd.).
+    <div>
+      <p>Primjer:</p>
+      <img src="img1.jpeg" alt="Primjer jedinica i šestica">
+      <p>Suma jedinica = 3</p>
+      <p>Suma šestica = 18</p>
+    </div>
+  </li>
+  <li>
+    <strong>Max i Min</strong> - cilj je sakupiti što veću (Max) ili što manju (Min) sumu.
+    <div>
+      <p>Primjer:</p>
+      <img src="img2.jpeg" alt="Primjer Max i Min">
+      <p>Max = 23</p>
+      <p>Min = 20</p>
+    </div>
+  </li>
+  <li>
+    <strong>Skala</strong> - kombinacija 1-2-3-4-5 ili 2-3-4-5-6.
+    <div>
+      <img src="img3.jpeg" alt="Primjer skale">
+    </div>
+  </li>
+  <li>
+    <strong>Full</strong> - tri iste i dvije iste kockice.
+    <div>
+      <img src="img4.jpeg" alt="Primjer fulla">
+    </div>
+  </li>
+  <li>
+    <strong>Poker</strong> - četiri iste kockice.
+    <div>
+      <img src="img5.jpg" alt="Primjer pokera">
+    </div>
+  </li>
+  <li>
+    <strong>Yamb</strong> - pet istih kockica.
+    <div>
+      <img src="img6.jpeg" alt="Primjer yamba">
+    </div>
+  </li>
 </ul>
 
-<h1>Skill liga</h1>
-<p>Prijavom u ovo natjecanje priključujete se u posljednju skupinu.</p>
-<p>Pobjedom ostvarujete 3 boda, a neriješena igra nosi 1 bod.</p>
-<p>Najboljih 5 iz skupine mogu napredovati u jači rang, a najslabijih 5 odlaze u slabiju skupinu.</p>
-<p>U ligi sudjeluje 20 igrača i liga traje 3 do 7 dana.</p>
-<p>Jednokratni ulog za ovu ligu je 8,000💎</p>
-<p>Prvi, odnosno pobjednik lige na kraju tjedna dobiva dio nagrade iz milijunskog fonda za ligu i 🏆.</p>
-<p>Možete u bilo kojem trenutku izaći iz lige ali onda gubite trenutnu poziciju. Povratkom nazad u ligu priključujete se ponovo u posljednju skupinu.</p>
+<h2>Stupci</h2>
+<p>Stupci su označeni kao: Prema gore, Prema dolje, Gore-dolje i Najava (N).</p>
+<ul>
+  <li><strong>Prema dolje</strong> - popunjava se od vrha prema dnu, redom.</li>
+  <li><strong>Prema gore</strong> - popunjava se odozdo prema gore, redom.</li>
+  <li><strong>Gore-dolje</strong> - redoslijed nije obavezan.</li>
+  <li><strong>Najava (N)</strong> - nakon prvog bacanja najavljuje se koja kombinacija će se igrati i odluka se više ne smije mijenjati.</li>
+</ul>
 
-<h1>Fallout lige</h1>
-<p>U ovoj ligi potrebno je ostvariti određeni broj pobjeda za redom kako bi se osvojila glavna nagrada</p>
-<p>Npr. za ligu 7✪ potrebno je pobijediti 7 puta za redom da bi se osvojila nagrada od 7,000,000 💎 i 💣.</p>
-<p>Npr. za ligu 3✪ potrebno je pobijediti 3 puta za redom da bi se osvojila nagrada od 400,000 💎 i 💣.</p>
-<p>Ako izgubite jednu partiju ispadate iz natjecanja ali imate se pravo ponovo prijaviti u bilo kojem trenutku.</p>
-<p>Postoji određeni ulog za ulaz u bilo koju od ovih liga, osim za ligu 6✪ u koju se ulazi sa specijalnom ulaznicom 🎟️</p>
+<h2>Bodovanje</h2>
+<ul>
+  <li>
+    <strong>Prvih 6 redova</strong> - zbroj svih jedinica, dvojki, trojki, itd. Ako je ukupan zbroj veći od 60, dodaje se 30 bonus bodova.
+  </li>
+  <li>
+    <strong>Max</strong> - suma 5 najvećih kockica.
+  </li>
+  <li>
+    <strong>Min</strong> - suma 5 najmanjih kockica.
+    <p>Konačna formula: (<strong>Max - Min</strong>) × broj jedinica iz prvog retka.</p>
+  </li>
+  <li>
+    <strong>Skala</strong> - 30 bodova za kombinaciju 1-5, ili 40 bodova za kombinaciju 2-6.
+  </li>
+  <li>
+    <strong>Full</strong> - zbroj svih 5 kockica + 30 bonus bodova.
+  </li>
+  <li>
+    <strong>Poker</strong> - suma 4 iste kockice + 40 bonus bodova.
+  </li>
+  <li>
+    <strong>Yamb</strong> - suma 5 istih kockica + 50 bonus bodova.
+  </li>
+</ul>
 
-<p>Sretno!</p>  
+<h2>Skill Liga</h2>
+<p>Prijavom u Skill Ligu priključujete se posljednjoj skupini. Svaka pobjeda donosi 3 boda, a neriješena igra 1 bod.</p>
+<p>Najboljih 5 igrača napreduje u viši rang, dok najslabijih 5 ispada u niži rang.</p>
+<p>Skill Liga ima 20 igrača i traje 3 do 7 dana.</p>
+<p>Ulog za ulazak je 8.000 💎. Pobjednik lige dobiva dio nagradnog fonda i 🏆 trofej.</p>
+<p>Možete napustiti ligu u bilo kojem trenutku, ali gubite trenutnu poziciju. Povratkom se opet kreće iz posljednje skupine.</p>
+
+<h2>Fallout Lige</h2>
+<p>U Fallout ligama cilj je ostvariti određeni broj uzastopnih pobjeda kako biste osvojili nagradu.</p>
+<ul>
+  <li>Za ligu 7✪ potrebno je 7 uzastopnih pobjeda za nagradu od 7.000.000 💎 i 💣.</li>
+  <li>Za ligu 3✪ potrebno je 3 uzastopne pobjede za nagradu od 400.000 💎 i 💣.</li>
+</ul>
+<p>Jedan poraz znači ispadanje, ali prijava u novu ligu je uvijek moguća.</p>
+<p>Za ulazak u Fallout lige postoji određeni ulog, osim za ligu 6✪ koja zahtijeva posebnu ulaznicu 🎟️.</p>
+
+<h2>Sretno!</h2>
 
 </body>
 </html>
