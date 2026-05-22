@@ -130,6 +130,22 @@
 			width: 136px;
 		}
 
+		.apk-badge {
+			align-items: center;
+			background: #111827;
+			border-radius: 8px;
+			color: #ffffff;
+			display: inline-flex;
+			flex: 0 0 auto;
+			font-size: 18px;
+			font-weight: 700;
+			height: 44px;
+			justify-content: center;
+			letter-spacing: 0;
+			min-width: 120px;
+			padding: 0 18px;
+		}
+
 		.support-links {
 			display: flex;
 			flex-wrap: wrap;
@@ -184,7 +200,7 @@
 			<section class="brand" aria-labelledby="download-title">
 				<img class="app-icon" src="die.png" alt="Yamb" width="112" height="112" />
 				<h1 id="download-title">Preuzmi Yamb</h1>
-				<p class="lede">Igraj Yamb na iPhoneu, iPadu ili Android uređaju. Odaberi trgovinu koja odgovara tvom uređaju.</p>
+				<p class="lede">Igraj Yamb na iPhoneu, iPadu ili Android uređaju. Odaberi trgovinu ili direktni APK za svoj uređaj.</p>
 				<nav class="support-links" aria-label="Dodatni linkovi">
 					<a href="index_hr.html">O igri</a>
 					<a href="rules/index_hr.html">Pravila</a>
@@ -207,6 +223,14 @@
 						<span>Za Android uređaje s Google Play uslugama</span>
 					</span>
 					<img class="store-badge google-play-badge" src="android.png" alt="Get it on Google Play" width="136" height="52" />
+				</a>
+
+				<a class="store-option" href="app-release.apk" download>
+					<span class="store-copy">
+						<strong>Direktni APK</strong>
+						<span>Za Android uređaje bez Google Playa</span>
+					</span>
+					<span class="apk-badge">APK</span>
 				</a>
 			</section>
 		</div>
