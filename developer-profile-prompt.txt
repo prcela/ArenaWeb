@@ -1,0 +1,10 @@
+Tool: built-in image_gen
+
+Use case: logo-brand.
+Create one finished square developer profile image for the Google Play developer Rika Omega Rika, built around the exact monogram "R Ω R" (a capital Latin R, a capital Greek omega Ω, and a capital Latin R).
+The monogram is the only text in the image. Do not spell out the full company name.
+
+Design: a distinctive, beautifully balanced typographic emblem, polished and professional with a quiet playful spirit suitable for a developer of card and board games. All three characters must remain unmistakable. The central capital omega is subtly larger and acts as the anchor, flanked by matching uppercase R characters. Use custom, confident geometric letterforms with gentle rounded details and consistent visual weight. Well-designed optical spacing; enough separation that the omega never merges with either R. Refined modern identity, not generic gaming clipart.
+Palette: warm ivory monogram on a deep forest-green background, with a small restrained golden accent integrated into the omega if it improves the design. Flat vector-like appearance, extremely crisp edges, minimal subtle background texture only. Strong contrast and legibility at small avatar sizes.
+Composition: square 1:1, ideally 1024 x 1024 pixels, full-bleed opaque background. Center the complete emblem within the middle 65% of the canvas so it remains fully visible with both circular and rounded-square cropping. Do not draw the circular crop, a border, or rounded corners into the image.
+No additional words, no mockups, no presentation sheet, no alternative versions, no captions, no watermark, no phone, no Play Store badge, no app icon from another brand, no cards, no dice, no casino imagery, no metallic effects, no bevels, no glossy 3D rendering, no lens flares. Deliver a single clean, memorable, immediately usable profile icon.

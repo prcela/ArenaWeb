@@ -1,0 +1,8 @@
+Tool: built-in image_gen
+Final export: resized with sips to 4096 x 2304 pixels.
+
+Use case: logo-brand.
+Create a finished Google Play developer page header image, landscape 16:9, for the same R Ω R identity as the reference image. Target final delivery 4096 x 2304 pixels; generate at highest available landscape resolution and preserve 16:9 composition.
+Input image 1 is the brand reference. Preserve the distinctive ivory serif R Ω R monogram with central Greek capital omega and the small gold four-point star inside it. Match its deep forest-green textured background and warm ivory/gold palette.
+Adapt the identity into a refined wide header: center the monogram, occupying approximately 42 percent of the canvas width, with generous breathing room on every side and all essential details in the central area. Subtle oversized flowing arcs inspired by the omega shape can appear in the far edges in slightly lighter green, quiet and elegant, with very restrained thin gold curved accents near the edges. Dark forest green full bleed, soft subtle paper texture, polished calm visual identity. Keep the monogram sharp, balanced, instantly readable. Opaque image, no frame or built-in rounded corners.
+Exact and only text: "R Ω R". No other text, no company name, no slogans, no cards, dice, casino imagery, no phones, no mockups, no Google Play marks, no lens flares, no 3D, no watermarks. A single ready-to-use landscape banner.

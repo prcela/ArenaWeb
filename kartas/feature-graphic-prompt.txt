@@ -1,0 +1,16 @@
+Tool: built-in image_gen
+
+Use case: ads-marketing.
+Create a finished Google Play feature graphic for the Croatian card-game app Kartaš. A wide landscape banner, exact target aspect ratio 1024:500 (2.048:1). Prefer output 2048 x 1000 pixels for later export to 1024 x 500. Full bleed, opaque background.
+
+Input images are supporting brand and card-art references, not edit targets:
+Image 1 is the existing Kartaš icon: a distinctive single leaf split golden yellow on the left and deep green on the right, with brown outline and stem. Preserve this leaf design faithfully as a small brand accent near the title; do not make the icon the dominant graphic or place it in a square tile.
+Images 2, 3 and 4 are actual playing-card faces used by the app. Use these recognizable regional card designs as the main visual, preserving their artwork and proportions as faithfully as possible. They represent Bela, Lorum and Briškula, ordinary social card games with no gambling.
+
+Design a beautifully art-directed, uncluttered editorial banner with warm ivory paper background, rich forest-green typography and restrained golden-yellow accents drawn from the leaf. Crisp, premium and inviting. Subtle paper grain, natural soft shadows, clean negative space.
+Composition: a strong two-part arrangement, large legible wordmark and smaller game names on the left; an elegant fanned arrangement of the three reference playing cards on the right, each card clearly distinct, slightly rotated, overlapping naturally. Cards have realistic paper thickness and soft cast shadows. All key content comfortably within a 48px safe margin at final size; no cut-off letters or cards. Leaf accent modest in size, and cards are the central visual idea. Title should be instantly readable when downscaled.
+Exact text, and no other text added by you:
+"Kartaš"
+"Bela · Lorum · Briškula"
+Render the Croatian diacritics correctly: š in Kartaš and Briškula. The title is an elegant confident serif wordmark; game names in clean readable type beneath it. Treat tiny original lettering within card illustrations as part of the reference artwork.
+No mock phone, no screenshot UI, no buttons, no install/download call to action, no store badges, no rankings, no prices or promotional claims. No coins, casino chips, money, roulette, slot machines, dice, poker branding or gambling imagery. No extra decorative cards or fabricated game modes. Final result should be a polished usable marketing banner, not a presentation of several concepts.

@@ -1,0 +1,10 @@
+Kartaš — Google Play phone screenshots
+
+01-izbornik.png: 1080 x 1920 px, PNG, 564,002 bytes
+02-bela.png: 1920 x 1080 px, PNG, 2,331,426 bytes
+03-lorum.png: 1920 x 1080 px, PNG, 2,669,944 bytes
+04-briskula.png: 1920 x 1080 px, PNG, 2,395,620 bytes
+
+Source: installed Android app app.igre.kartas.debug (0.1.0-dev), emulator screenshots. Menu and bot-only matches on the existing local development server. Captured directly at 1080 x 1920 or 1920 x 1080. No generated or retouched gameplay.
+
+Validation: four PNG files; exact 9:16 or 16:9 aspect ratio; each side within 320–3840 px; each file below 8 MB; PNG integrity and ZIP contents checked.
