@@ -19,6 +19,7 @@
 .store-option img { flex: 0 0 auto; object-fit: contain; }
 .app-store-badge { width: 120px; height: 40px; }
 .google-play-badge { width: 136px; height: 52px; }
+.apk-badge { display: inline-flex; flex: 0 0 auto; align-items: center; justify-content: center; min-width: 120px; height: 44px; padding-inline: 18px; border-radius: 8px; background: var(--ink); color: var(--paper); font-size: 18px; font-weight: 700; }
 .download-help { margin-top: 8px; color: var(--muted); font-size: 13px; line-height: 1.7; }
 .download-page .site-footer { border-top: 1px solid var(--line); }
 @media (max-width: 1000px) {
