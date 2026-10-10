@@ -1,10 +1,10 @@
 # Yamb: bilješke uz pravne dokumente
 
-Verzija dokumenata: 28. rujna 2026. Izmjene su pripremljene u repozitoriju; nisu objavljene i nisu potvrda pravne usklađenosti poslovanja. Tekst EULA-e i Politike privatnosti je na engleskom, a povezani FAQ je usklađen na hrvatskom i engleskom.
+Verzija dokumenata: 10. listopada 2026. Izmjene su pripremljene u repozitoriju; nisu objavljene i nisu potvrda pravne usklađenosti poslovanja. Tekst EULA-e i Politike privatnosti je na engleskom, a povezani FAQ je usklađen na hrvatskom i engleskom.
 
 ## Podaci i donesene odluke
 
-- Pružatelj: Rika Omega Rika, vl. Kresimir Prcela, Pavlenski put 5k, 10000 Zagreb, Hrvatska. Korisnik je potvrdio da su podaci s Google Playa aktualni te da je Appleov zapis zastario.
+- Pružatelj: Rika Omega Labs d.o.o., Pavlenski put 5k, 10000 Zagreb, Hrvatska. Naziv i pravni oblik ažurirani su prema korisnikovoj uputi 10. listopada 2026.; zadržani su postojeća adresa i kontakt.
 - Kontakt: yamb.igre@gmail.com i poslovna adresa. Broj telefona namjerno je izostavljen na izričit zahtjev korisnika.
 - EULA obuhvaća iOS i Android. Zadržani su postojeći sidreni linkovi `#connection-interruptions` i `#volunteer-moderators`.
 - Postojeća dobna politika 17 godina / roditeljsko odobrenje preformulirana je bez istodobnog zahtjeva da je svatko stariji od 17. Time se ne tvrdi da je uvedena tehnička provjera dobi ili roditeljskog pristanka.
@@ -29,7 +29,7 @@ Primjeri za provjeru: MP 2 × 1.000 → 80 naknade i 1.920 nagrade; MP 2 × 101 
 
 ## Otvorene operativne točke prije objave
 
-1. **Appleovi podaci i kontaktni zahtjevi.** Ažurirati zastarjeli zapis pružatelja na App Storeu. Appleovi minimalni uvjeti za vlastitu EULA-u traže i telefonski kontakt; on je izostavljen prema korisnikovoj uputi. Zbog toga se ovaj tekst ne označava potpuno usklađenim sa svim Appleovim minimalnim uvjetima.
+1. **Appleovi podaci i kontaktni zahtjevi.** Uskladiti naziv i pravni oblik pružatelja na App Storeu i Google Playu s nazivom Rika Omega Labs d.o.o. Appleovi minimalni uvjeti za vlastitu EULA-u traže i telefonski kontakt; on je izostavljen prema korisnikovoj uputi. Zbog toga se ovaj tekst ne označava potpuno usklađenim sa svim Appleovim minimalnim uvjetima.
 2. **Prikaz naknade prije sudjelovanja.** Pregledani klijenti pokazuju tekst o naknadi u prikazu rezultata i imaju kontrole naknade za darovanja. Nije potvrđen jasan prikaz opće naknade prije svake uplate/ulaska. Nova EULA i FAQ ne zamjenjuju pravodobnu obavijest u aplikaciji. Nije mijenjan mobilni kod.
 3. **Promjene stope tijekom aktivne igre.** Server računa naknadu prema konfiguraciji pri obračunu. Nije potvrđeno spremanje stope uz svaku uplatu. Dok to nije osigurano, stopu ne mijenjati tako da zahvati već prihvaćene uloge.
 4. **Poništavanje i preostala naknada.** `internal/game/room.go`, `fUndoMatchImp`, kod dvaju igrača oduzima pobjedniku jedan izvorni ulog i vraća ga drugom igraču; ne vraća automatski raniji odbitak naknade. Poništenje stoga nije potpuno vraćanje svih stanja. EULA predviđa provjeru i dodatnu korekciju gdje je opravdana/zakonski potrebna. Postupak za više igrača također treba zasebnu provjeru prije oslanjanja na njega; ovdje nije mijenjan backend.
