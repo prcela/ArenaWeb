@@ -4,8 +4,8 @@ Verzija dokumenata: 10. listopada 2026. Izmjene su pripremljene u repozitoriju; 
 
 ## Podaci i donesene odluke
 
-- Pružatelj: Rika Omega Labs d.o.o., Pavlenski put 5k, 10000 Zagreb, Hrvatska. Naziv i pravni oblik ažurirani su prema korisnikovoj uputi 10. listopada 2026.; zadržani su postojeća adresa i kontakt.
-- Kontakt: yamb.igre@gmail.com i poslovna adresa. Broj telefona namjerno je izostavljen na izričit zahtjev korisnika.
+- Pružatelj: Rika Omega Labs d.o.o., Pavlenski put 5k, 10000 Zagreb, Hrvatska. Naziv i pravni oblik ažurirani su prema korisnikovoj uputi 10. listopada 2026.; zadržana je postojeća adresa, a kontakt je ažuriran na support@igre.app.
+- Kontakt: support@igre.app i poslovna adresa. Broj telefona namjerno je izostavljen na izričit zahtjev korisnika.
 - EULA obuhvaća iOS i Android. Zadržani su postojeći sidreni linkovi `#connection-interruptions` i `#volunteer-moderators`.
 - Postojeća dobna politika 17 godina / roditeljsko odobrenje preformulirana je bez istodobnog zahtjeva da je svatko stariji od 17. Time se ne tvrdi da je uvedena tehnička provjera dobi ili roditeljskog pristanka.
 - Odredbe protiv varanja, korekcije rezultata i zaštita kupljenog sadržaja odvojene su od prigovora zbog prekida veze. Odredbe o moderatorima ne prenose zakonsku odgovornost pružatelja na volontere niti daju apsolutni imunitet.
